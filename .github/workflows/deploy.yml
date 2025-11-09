@@ -25,7 +25,7 @@ jobs:
         run: |
           jupyter lite build --lite-dir week-8-2 --contents week-8-2 --output-dir dist/week-8-2
           jupyter lite build --lite-dir week-8-lab --contents week-8-lab --output-dir dist/week-8-lab
-          jupyter lite build --lite-dir week-9-1 --contents week-9-2 --output-dir dist/week-9-1
+          jupyter lite build --lite-dir week-9-1 --contents week-9-1 --output-dir dist/week-9-1
           cp -r home/* dist/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
