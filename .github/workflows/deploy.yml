@@ -31,6 +31,7 @@ jobs:
           jupyter lite build --lite-dir week-10-1 --contents week-10-1 --output-dir dist/week-10-1
           jupyter lite build --lite-dir week-10-2 --contents week-10-2 --output-dir dist/week-10-2
           jupyter lite build --lite-dir ae3 --contents ae3 --output-dir dist/ae3
+          jupyter lite build --lite-dir week-10-lab --contents week-10-lab --output-dir dist/week-10-lab
           cp -r home/* dist/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
